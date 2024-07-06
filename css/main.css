@@ -1,3 +1,4 @@
 @import url("./settings/fontiran.css");
 @import url("./settings/settings.css");
 @import url("./style-tailwind-css.css");
+@import url("./media/2xl.css") only screen and (min-width: 1400px); /* desktop 2xl*/
