@@ -14,7 +14,17 @@ div.hero-section > div.hero-single {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 100vh;
+  height: 117vh;
+}
+.hero-single::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -0.5px;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 div.hero-section > div.hero-single div.hero-content {
   display: flex;
@@ -27,5 +37,13 @@ div.hero-section > div.hero-single div.hero-content h1.hero-title {
   color: #fff;
   font-weight: 600;
   margin: 20px 0;
+  text-transform: capitalize;
+}
+.hero-single .hero-content p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
   text-transform: capitalize;
 }
