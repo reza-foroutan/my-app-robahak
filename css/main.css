@@ -1,1 +1,3 @@
-@import url("./main-tailwindcss.css");
+@import url("./settings/fontiran.css");
+@import url("./settings/settings.css");
+@import url("./style-tailwind-css.css");
