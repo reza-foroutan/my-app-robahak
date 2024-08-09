@@ -35,7 +35,6 @@ body::-webkit-scrollbar-thumb {
   --direction: rtl;
   --font-family: "IRANSans", sans-serif;
   --color-neutral-000: #fff;
-  --color-blue: #3498db !important;
 }
 
 body {
@@ -50,12 +49,4 @@ body {
   overflow: auto;
   background-color: var(--color-neutral-000);
   direction: var(--direction);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-a {
-  text-decoration: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: var(--color-blue);
 }
